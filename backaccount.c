@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main(){
-int a,b,c=0,d,t=3;
+int a,b,c=0,d,t=0,y=3;
 printf("\n Enter The Your PIN : ");
 scanf("%d",&a);
-while (t>=0)
+while (y>t)
 {
 if (a==1245)
 {
-    /* code */
+    
     printf("\n 1 . Add the amount");
     printf("\n 2 . withdrew your amound");
     printf("\n 3 . check the account");
@@ -42,7 +42,7 @@ if (a==1245)
 }else{
     printf("\n your pin is wrong");
 }
-t=t-1;
+t=t+1;
 }
 
 
